@@ -50,14 +50,12 @@ class Shark {
       );
     }
     moveLeft() {
-      console.log('left');
       if (keys[37]) {
         this.vx -= 1;
         this.position = 1;
       }
     }
     moveRight() {
-      console.log('right');
       if (keys[39]) {
         this.vx += 1;
         this.position = 0;
@@ -67,14 +65,12 @@ class Shark {
       }
     }
     moveUp() {
-      console.log('uppp');
       if (keys[38]) {
         this.y -= -1;
         this.vy -= 1;
       }
     }
     moveDown() {
-      console.log('down');
       if (keys[40]) {
         this.y += 1;
         this.vy += 1;
@@ -127,7 +123,6 @@ class Shark {
     }
     moveLeft() {
       if (this.x <= 0) {
-        console.log('outcraby');
         this.x = 0;
       } else if (keys[65]) {
         this.vx -= 1;

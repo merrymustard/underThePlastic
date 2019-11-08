@@ -65,7 +65,7 @@ class Pirate {
     if (frames % 100 === 0) {
       shipCan.forEach(eachShip => {
         trashCan.push(new Trash(eachShip.x, eachShip.y + eachShip.height, Math.floor(Math.random() * 3)));
-      })
+      });
     }
   }
   

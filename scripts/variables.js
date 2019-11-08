@@ -1,6 +1,6 @@
 /*jshint esversion: 6 */
 
-const bubbless = new Bubbles();
+// const bubbless = new Bubbles();
 const ocean = new Ocean();
 const lifeCrabby = new LivesCrab();
 const lifeSharky = new LivesShark();
