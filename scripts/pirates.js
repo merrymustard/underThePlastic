@@ -51,6 +51,10 @@ class Pirate {
         this.img.src = 'imgs/trash-02.png';
       } else if (type == 2) {
         this.img.src = 'imgs/trash-03.png';
+      } else if (type == 3) {
+        this.img.src = 'imgs/trash5.png';
+      } else if (type == 4) {
+        this.img.src = 'imgs/trash-14.png';
       }
   
       //this.img.src = 'imgs/trash-01.png';
@@ -64,7 +68,7 @@ class Pirate {
   function generateTrash() {
     if (frames % 100 === 0) {
       shipCan.forEach(eachShip => {
-        trashCan.push(new Trash(eachShip.x, eachShip.y + eachShip.height, Math.floor(Math.random() * 3)));
+        trashCan.push(new Trash(eachShip.x, eachShip.y + eachShip.height, Math.floor(Math.random() * 5)));
       });
     }
   }

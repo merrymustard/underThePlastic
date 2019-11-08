@@ -26,7 +26,7 @@ function crabAnimation() {
           arr.splice(i,1);
           i--; //corregit contador de la i
       } 
-      if(arr[i].y < -arr[i].width){
+      if(arr[i].y > canvas.height){
         arr.splice(i,1);
         i--; //corregit contador de la i
     } 
@@ -98,13 +98,6 @@ function startGame() {
     interval = setInterval(update, 1000 / 60);
     sound.play();
   }// end function start game
-
-
-//   window.onload = function() {
-//     document.getElementById('start-button').onclick = function() {
-//         startGame();
-//       };
-//     };// end of unload
 
     function update(){
         frames++;

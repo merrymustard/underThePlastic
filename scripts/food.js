@@ -10,9 +10,11 @@ class FishFood {
       if (type == 1) {
         this.img.src = 'imgs/fish-13.png';
       } else if (type == 2) {
-        this.img.src = 'imgs/fish-13.png';
+        this.img.src = 'imgs/fish2.png';
       } else if (type == 3) {
-        this.img.src = 'imgs/fish-13.png';
+        this.img.src = 'imgs/fish4.png';
+      }  else if (type == 4) {
+        this.img.src = 'imgs/shrimp.png';
       }
     }
     draw() {
@@ -22,9 +24,9 @@ class FishFood {
   }
   
   function generateFish() {
-    if (frames % 80 === 0) {
+    if (frames % 120 === 0) {
       const randomPosition = Math.floor(Math.random() * canvas.height + 260) + 50;
-      const randomType = Math.floor(Math.random() * 4);
+      const randomType = Math.floor(Math.random() * 5);
       const fishess = new FishFood(randomPosition, randomType);
       fishCan.push(fishess);
       console.log(fishCan);
