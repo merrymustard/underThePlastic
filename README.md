@@ -1,4 +1,6 @@
-# Under the plastic
+![cover image](https://github.com/merrymustard/underThePlastic/blob/master/imgs/under-the-plastic.png?raw=true)
+
+# Under the plastic, an Awareness and Consciousness Game 
 UDP is a multiplayer game having two animal creatures trying to survive for their lives struggling with the human ocean polution desposed by many pirate ships ignoring the global crisis we are facing today.
 
 # Motivation
@@ -10,6 +12,12 @@ The project is currently compleated, but i have possible additions to improve th
 # Code style
 This game was creater with javascript using the canvas.
 
-# Screenshots`
+# How the game works
+The game consist in two characters, our crab and our shark, top and bottom of the sealife food chain trying to survive in a world polluted from pirates
+![control images](https://raw.githubusercontent.com/merrymustard/underThePlastic/master/imgs/commands.png)
 
-![cover image](https://github.com/merrymustard/underThePlastic/blob/master/imgs/under-the-plastic.png?raw=true)
+
+
+This jawsome game was created by merrymustard
+
+
