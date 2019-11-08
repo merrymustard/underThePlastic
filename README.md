@@ -18,6 +18,5 @@ The game consist in two characters, our crab and our shark, top and bottom of th
 
 
 
-This jawsome game was created by merrymustard
 
-
+This jawsome game was created with ♥ by merrymustard at Ironhack.
